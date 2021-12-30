@@ -43,7 +43,7 @@ int main() //main door for enter the house, the house is synonym of this program
     std::endl; is end of this line code,
     endl is end line.
     */
-    std::cin >> a;
+    std::cin >> a; // cin is console in.
     std::cout << a << std::endl;
     return 0; // return is for data type int
 }
