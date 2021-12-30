@@ -23,7 +23,11 @@ int main()
 
 
 
-#include <iostream>
+#include <iostream> /* include is masukkan all program <target>,
+<iostream> is a "input output stream" or "target device type"
+example this device target type is windows, linux, or macos.
+stream is this device or this windows.
+*/
 //comment
 /*
 multiline comment
@@ -31,11 +35,17 @@ multiline comment
 
 int main() //main door for enter the house, the house is synonym of this program
 {
-    int a;
-    std::cout << "hi" << "its me" << std::endl;
+    int a; // int is a data type
+    std::cout << "hi" << "its me" << std::endl; /* is standard library from <iostream>,
+    std exist because it come from <iostream>,
+    cout is "console out",
+    << "hi" << is put "hi" into cout,
+    std::endl; is end of this line code,
+    endl is end line.
+    */
     std::cin >> a;
     std::cout << a << std::endl;
-    return 0;
+    return 0; // return is for data type int
 }
 
 
