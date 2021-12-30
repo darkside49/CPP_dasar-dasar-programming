@@ -54,6 +54,7 @@ int main() //main door for enter the house, the house is synonym of this program
 //==========DEVELOPMENT()==========
 //
 
+/* FAIL DEVELOPMENT
 int mainDevelopment()
 {
     int myName;
@@ -64,7 +65,7 @@ int mainDevelopment()
     std::cout << "Hi " << myName << ", nice to meet you." << std::endl;
     return: 0;
 }
-
+*/
 
 
 
