@@ -24,9 +24,17 @@ int main(){
     std::cout << "This is also the second line.";
     std::cout << "This is a last sentence" << std::endl;
 	
-	std::cin.get();
-	return 0;
+	std::cin.get(); // cin.get() | get() is for when user click enter then program is finished.
+	return 0; // return 0 is for when this main can run, then program finished. & when this main is error, then program error.
 }
+
+
+
+
+
+
+
+
 
 
 
