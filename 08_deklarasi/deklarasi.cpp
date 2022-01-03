@@ -28,3 +28,25 @@ int main() {
     a = 10; // this meaning include 10 into var a.
     cout << a << endl; // this line is nothing std because was shortened by using namespace std.
 } 
+
+
+
+// ===== DEVELOPMENT ===== //
+using namespace std;
+int main() {
+    int a;
+    int square;
+    cout << "Welcome to quadratic operation \n Type a numbers for square :" << endl;
+    cin >> a;
+    square =a*a;
+    cout << a;
+    cout << " square is = ";
+    cout << square << endl;
+}
+
+
+
+
+
+
+
