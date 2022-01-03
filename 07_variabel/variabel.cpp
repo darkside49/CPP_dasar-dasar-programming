@@ -28,9 +28,9 @@ int main() {
     int c;
     std::cout << "welcome to addition operation \n";
     std::cout << "example : a + b = 1 + 2 = 3" << std::endl;
-    std::cin >> a >> std::endl;
-    std::cin >> b >> std::endl;
-    c = a + b;
+    std::cin >> a;
+    std::cin >> b;
+    c = a+b;
     std::cout << "the addition of ";
     std::cout << a;
     std::cout << " + ";
@@ -40,4 +40,4 @@ int main() {
     std::cin.get();
     return 0;
 }
-//fail
+// success
