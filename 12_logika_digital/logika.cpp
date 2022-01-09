@@ -41,3 +41,48 @@ int main()
 	cin.get();
 	return 0;
 }
+
+
+
+// ===== RECODE ===== //
+int main()
+{
+    int a = 3;
+    int b = 2;
+  
+    bool hasil;
+  
+    // operator logika : or, not, and
+  
+    // not
+    hasil = !(a == 3);
+  
+    // and : kedua nilai harus benar untuk menghasilkan true         
+    cout << "untuk and \n";
+    hasil = (a == 3) and (b == 2); // true and true
+    cout << hasil << endl;
+    hasil = (a == 4) and (b == 2); // false and true
+    cout << hasil << endl;
+    hasil = (a == 3) and (b == 3); // true && false
+    cout << hasil << endl;
+    hasil = (a == 4) and (b == 3); // false && false
+    cout << hasil << endl;
+
+    // or : salah satu nilai harus benar untuk menghasilkan true         
+    cout << "untuk or \n";
+    hasil = (a == 3) or (b == 2); // true and true
+    cout << hasil << endl;
+    hasil = (a == 4) or (b == 2); // false and true
+    cout << hasil << endl;
+    hasil = (a == 3) || (b == 3); // true && false
+    cout << hasil << endl;
+    hasil = (a == 4) || (b == 3); // false && false
+    cout << hasil << endl;
+
+	
+	
+	
+	
+	
+	
+}
