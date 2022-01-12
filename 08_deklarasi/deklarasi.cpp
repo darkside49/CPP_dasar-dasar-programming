@@ -44,9 +44,3 @@ int main() {
     cout << square << endl;
 }
 
-
-
-
-
-
-
