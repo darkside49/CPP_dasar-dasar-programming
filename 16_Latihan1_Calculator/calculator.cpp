@@ -77,3 +77,47 @@ int main(){
     cin.get();
     return 0;
 }
+
+
+
+// ===== DEVELOPMENT =====    //
+int main(){
+    float a,b,hasil;
+    char operatol;
+    
+    cout << "selamat datang di program kalkulator sederhana.\n\n";
+    cout << "masukkan angka pertama : ";
+    cin >> a;
+    cout << "masukkan operator +,-,*,/ : ";
+    cin >> operatol;
+    cout << "masukkan angka kedua : ";
+    cin >> b;
+    switch(operatol){
+        case '+':
+            hasil = a + b;
+            cout << "hasil penjumlahan dari ";
+            cout << a <<" " << operatol << " " << b;
+            cout << " = " << hasil << endl;
+            break;
+        case '-':
+            hasil = a - b;
+            cout << "hasil pengurangan dari ";
+            cout << a <<" " << operatol << " " << b;
+            cout << " = " << hasil << endl;
+            break;
+        case '*':
+            hasil = a  * b;
+            cout << "hasil perkalian dari ";
+            cout << a <<" " << operatol << " " << b;
+            cout << " = " << hasil << endl;
+            break;
+        case '/':
+            hasil = a / b;
+            cout << "hasil pembagian dari ";
+            cout << a <<" " << operatol << " " << b;
+            cout << " = " << hasil << endl;
+            break;
+        default :
+            cout << "maaf, sedang error" << endl;
+    }
+}
