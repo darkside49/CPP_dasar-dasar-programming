@@ -69,3 +69,29 @@ int main(){
 
 
 // ===== DEVELOPMENT ===== //
+int main(){
+    float a, b, c;
+    char y;
+    cout << "penjumlahan sederhana\n";
+    cout << "masukkan angka pertama : ";
+    cin >> a;
+    cout << a << " + " << "b? \n";
+    cout << "masukkan nilai b : ";
+    cin >> b;
+    c += a;
+    c += b;
+    cout << "hasil penjumlahan dari " << a << " + " << b;
+    cout << " = " << c << "\n";
+    cout << "apakah anda ingin melanjutkan penjumlahan lagi? (y\/n)";                      
+    cin >> y;
+    if( y== 'y'){
+      cout << "yes";
+    } else if(y == 'n'){
+      cout << "no";
+    } else{
+      cout << "pilih huruf y atau n";
+    }
+    
+    getch();
+}
+
